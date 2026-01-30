@@ -1,0 +1,10 @@
+nano ~/.ssh/config (creazione file)
+Host w4s
+    HostName w4s.filippobilardo.it
+    Port 2222
+    User viscomi.nicolo                      (aggiunta configurazione)
+    IdentityFile ~/.ssh/id_ed25519
+
+    chmod 600 ~/.ssh/config   (impostazione permessi)
+
+    ssh w4s (metodo per connettsersi)
